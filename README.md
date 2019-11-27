@@ -9,12 +9,13 @@
 [![GitHub release](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/release.svg)](https://aledc.com)
 [![Dependencies](https://github.com/aledc7/Scrum-Certification/blob/master/recursos/dependencias-none.svg)](https://aledc.com)
 
-# Revisión de Codigo
+# Revisión de Codigo - Mejores Prácticas
+
 
 
 ## Diez consejos para guiarlo hacia una revisión efectiva del Código.
 
-1. 
+:one: 
 ## Revise menos de 400 líneas de código a la vez
 
 Un estudio de SmartBear de un equipo de programación de Cisco Systems reveló que los desarrolladores no deberían revisar más de 200 a 400 líneas de código (LOC) a la vez.  
@@ -24,9 +25,7 @@ En la práctica, una revisión de 200-400 LOC durante 60 a 90 minutos debería p
 Por lo tanto, si existían 10 defectos en el código, una revisión bien realizada encontraría entre siete y nueve de ellos.
 
 
-## Mejores Prácticas de revisión de Código
-
-2. 
+:two:  
 ## Tómate tu tiempo. 
 
 Las tasas de inspección deben ser inferiores a 500 LOC por hora.   
@@ -34,7 +33,7 @@ Puede ser tentador analizar una revisión, suponiendo que otra persona detecte l
 Las revisiones de código en cantidades razonables, a un ritmo más lento durante un período de tiempo limitado, dan como resultado la revisión de código más efectiva.  
 
 
-3. 
+:three:  
 ## No revise por más de 60 minutos a la vez.  
 
 Del mismo modo que no debe revisar el código demasiado rápido, tampoco debe revisarlo durante demasiado tiempo de una sola vez.  
@@ -43,7 +42,7 @@ Los estudios demuestran que tomar descansos de una tarea durante un período de 
 Realizar revisiones más frecuentes debería reducir la necesidad de tener que realizar una revisión de esta duración.  
 
 
-4. 
+:four:  
 ## Establecer objetivos y capturar métricas.
 
 Antes de implementar un proceso, su equipo debe decidir cómo va a medir la efectividad de la revisión de código y nombrar algunos objetivos tangibles.  
@@ -61,7 +60,7 @@ También es útil para ver métricas de procesos internos, que incluyen:
 Siendo realistas, solo los procesos automatizados o estrictamente controlados pueden proporcionar métricas repetibles.    
 Una herramienta de revisión de código basada en métricas recopila datos automáticamente para que su información sea precisa y sin prejuicios humanos.   
 
-5. 
+:five:  
 ## Los Programadores autores deben comentar el código fuente antes de la revisión. 
 
 Los autores deben comentar el código antes de que ocurra la revisión porque las anotaciones guían al revisor a través de los cambios, mostrando qué archivos deben examinar primero y defendiendo la razón detrás de cada modificación del código.  
@@ -69,14 +68,14 @@ Las anotaciones deben dirigirse a otros revisores para facilitar el proceso y pr
 Como beneficio adicional, el autor a menudo encontrará errores adicionales incluso antes de que comience la revisión de código.  
 Más errores encontrados antes de la revisión de código producirán una menor densidad de defectos porque existen menos errores en general.  
 
-6. 
+:six:  
 ## Use Listas de Verificación (Checkbox)
 
 Es muy probable que cada persona en su equipo cometa los mismos 10 errores una y otra vez.  Las omisiones en particular son los defectos más difíciles de encontrar porque es difícil revisar algo que no está allí.  
 Las listas ckeckbox son la forma más efectiva de eliminar errores cometidos con frecuencia y combatir los desafíos de encontrar omisiones.
  Las listas de verificación de revisión de código de tipo ckeckbox también brindan a los miembros del equipo expectativas claras para cada tipo de revisión y pueden ser útiles para realizar un seguimiento con fines de informes y mejora de procesos.  
 
-7. 
+:seven:
 ## Establecer un proceso para reparar los defectos encontrados. 
 
 Incluso después de optimizar los procesos de revisión de código mediante revisiones de boxeo de tiempo, limitando el LOC revisado por hora y nombrando las métricas clave para su equipo, todavía falta un paso clave de revisión.  
@@ -89,7 +88,7 @@ La mejor manera de garantizar que los defectos se corrijan es utilizar una herra
 Sin una herramienta automatizada, es probable que los errores encontrados en la revisión no se registren en el sistema de seguimiento de defectos habitual del equipo porque se encuentran antes de que se envíe el código al control de calidad.  
 
 
-8. 
+:eight:
 ## Fomentar una cultura positiva de revisión de código.
 
 La revisión de código puede ejercer presión sobre las relaciones interpersonales en equipo. Es difícil que los pares critiquen cada pieza de trabajo y que la gerencia evalúe y mida la densidad de defectos en su código.
@@ -103,14 +102,14 @@ Los defectos encontrados en la revisión de código no son una métrica aceptabl
  Si las métricas personales se convierten en una base para la compensación o la promoción, los desarrolladores se volverán hostiles hacia el proceso y, naturalmente, se centrarán en mejorar las métricas personales en lugar de escribir un mejor código general.  
  
 
-9. 
+:nine:  
 ## Acepte la Revision de código como algo naturar y parte del proceso de codificar.
 
 El conocimiento de que otros examinarán su trabajo naturalmente lleva a las personas a producir un mejor producto.  
 Este "Ego Effect" naturalmente incentiva a los desarrolladores a escribir un código más limpio porque sus compañeros lo verán.   El estudio SmartBear de Cisco Systems encontró que la "verificación puntual" del 20% al 33% del código resultó en una menor densidad de defectos con un gasto de tiempo mínimo. 
 Si su código tiene una probabilidad de 1 en 3 de ser llamado para su revisión, eso es un incentivo suficiente para verificar su trabajo.
 
-10. 
+:one::zero:
 ## Practica revisiones de código livianas
 
 Existen muchas formas de revisar el código de forma colaborativa. Sin embargo, para optimizar completamente el tiempo de su equipo y medir efectivamente sus resultados, se recomienda un proceso ligero y asistido por herramientas.
